@@ -1,3 +1,9 @@
 add
 commit
 push
+
+
+workflow (with Locofy)
+I make the design in Figma, give Pushan all the divs so he can add code to it using getelement functions.
+
+I use Figma to make the design then convert it to code using locofy, i tag all the buttons and he can hook them up to do what they're supposed to do and then i add the animations either afterwards or before that (using JS/Boomstrap/Lotties).
