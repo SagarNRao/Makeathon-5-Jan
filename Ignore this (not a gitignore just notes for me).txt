@@ -14,3 +14,6 @@ I use Figma to make the design then convert it to code using locofy, i tag all t
 
 workflow (with framer(better)):
 make a figma design, bring it to framer, make all the animations there. convert to html and remove all the unimportant code (there will be a lot of bullshit, but it's all metadata and a very big parent div is used just as an advertisement). You will find the names of the important divs under the names of the elements in the design tree. for example if you have a box named "yeet", type "yeet" into find in vsc, search for the div in the html part of the code (styles and js will be in the same file so, just deal with that real quick), and the div BELOW the div that has a data-framer-name="yeet" is the one that has all the information about the "yeet" div. 
+
+framer workflow-2:
+Make a basic design with html (wireframing and all that), spruce it up in figma
