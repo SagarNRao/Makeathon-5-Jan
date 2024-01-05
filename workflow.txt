@@ -20,3 +20,5 @@ Make a basic design with html (wireframing and all that), spruce it up in figma
 
 workflow-3:
 Make a design with figma, use that design to html plugin which gives you lesser code. Fix the html by using SVGs if there are any problems with the layout or the colours (there will be some). And THEN add javascript
+
+

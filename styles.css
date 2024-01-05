@@ -1,88 +1,36 @@
-body {
-  font-family: Inter;
-  text-align: left;
-  font-size: 15px;
-  letter-spacing: -2;
-  line-height: 1.5; /* Adjust this value as needed */
-  background-color: rgb(255, 255, 255);
+/* Mobile styles */
+.center-container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .center-container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .center-container {
+    width: 970px;
+    margin: 0 auto;
+  }
+}
+
+/* Large desktop styles */
+@media (min-width: 1200px) {
+  .center-container {
+    width: 1170px;
+    margin: 0 auto;
+  }
 }
 
 .e56_172 {
-  position: absolute;
-  top: 2450px;
-  left: 22.5%;
-}
-
-/* Tablet styles */
-@media (min-width: 768px) {
-  body {
-    font-size: 16px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 20%; /* Adjust this value as needed */
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 992px) {
-  body {
-    font-size: 18px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 15%; /* Adjust this value as needed */
-  }
-}
-
-/* Large desktop styles */
-@media (min-width: 1200px) {
-  body {
-    font-size: 20px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 10%; /* Adjust this value as needed */
-  }
-}
-
-/* Tablet styles */
-@media (min-width: 768px) {
-  body {
-    font-size: 16px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 20%; /* Adjust this value as needed */
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 992px) {
-  body {
-    font-size: 18px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 15%; /* Adjust this value as needed */
-  }
-}
-
-/* Large desktop styles */
-@media (min-width: 1200px) {
-  body {
-    font-size: 20px; /* Adjust this value as needed */
-  }
-
-  .e56_172 {
-    top: 2450px; /* Adjust this value as needed */
-    left: 10%; /* Adjust this value as needed */
-  }
+  top: 2450px; /* Adjust this value as needed */
+  left: 10%; /* Adjust this value as needed */
 }
 
 .e3_1413 {
@@ -1881,6 +1829,23 @@ body {
 }
 .e56_172 {
   position: absolute;
-  top: 2450px;
-  left: 22.5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-size: 2vw; /* Adjust as needed */
+  background-color: rgb(8, 4, 20);
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the body a flex container */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  height: 100vh; /* Make the body take up the full viewport height */
+}
+
+.yeet {
+  position: relative; /* Make the position relative to the flex container */
+  transform: translateX(-50%); /* Center the element horizontally */
 }
