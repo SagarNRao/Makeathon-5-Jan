@@ -778,3 +778,8 @@ span
 {
   width: 600px;
 }
+input,textarea
+{
+  font-family: Italiana;
+  font-weight: bold;
+}
