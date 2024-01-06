@@ -6,6 +6,11 @@ body {
   max-width: 500px;
   margin: auto;
 }
+pre
+{
+  font-family: Italiana;
+  font-weight: Regular;
+}
 .v3_3 {
   width: 100%;
   height: 6250px;
@@ -55,11 +60,11 @@ body {
   width: 859px;
   color: rgba(255, 217, 0, 1);
   position: absolute;
-  top: 115px;
+  top: 30px;
   left: 52px;
   font-family: Italiana;
   font-weight: Regular;
-  font-size: 200px;
+  font-size: 150px;
   
   text-align: left;
   /* transition: opacity 100s ease-in-out; */
@@ -107,14 +112,14 @@ body {
   color: rgb(0, 0, 0);
   position: absolute;
   top: 36px;
-  left: 993px;
+  left: 793px;
   font-family: Italiana;
   font-weight: Regular;
-  font-size: 30px;
+  font-size: 25px;
   opacity: 1;
   text-align: left;
 
-  animation: fadeInAnimation ease 7s;
+  animation: fadeInAnimation ease 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -517,7 +522,7 @@ body {
   font-size: 14px;
   max-width: 500px;
   margin: auto;
-
+  font-family: Italiana;
 }
 
 /* Existing styles... */
@@ -529,7 +534,7 @@ body {
   /* Add more responsive styles as needed */
 }
 
-section {
+.bigmain {
   display: grid;
   place-items: center;
   align-content: center;
@@ -555,4 +560,149 @@ section {
 
 .bounce {
   animation: bounce 1s infinite;
+}
+
+.Create  {
+  /* your existing styles */
+  position: relative; /* or absolute, fixed, or sticky */
+  z-index: 9999; /* adjust this value as needed */
+  top: 1000px;
+
+}
+
+#contact
+{
+  position: relative; /* or absolute, fixed, or sticky */
+  z-index: 9999; /* adjust this value as needed */
+  top: 2000px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 5000px;
+  position: relative;
+  margin: auto;
+  width: 1500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.gottem
+{
+  color: rgb(216,180,20);
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.sup
+{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+button{
+  font-family: Italiana;
+  font-weight: bold;
+}
+#message
+{
+  height: 100px;
+}
+.sub-title
+{
+  color: white;
+  font-family: Italiana;
+  font-weight: bold;
+  position: absolute;
+  left: 45.8%;
+}
+.v16_32,.v16_37
+{
+  position: absolute;
+  left: 2%;
+}
+.v25_80,.v25_81
+{
+  position: absolute;
+  left: 65%;
+}
+.gottem
+{
+  color: white;
 }
