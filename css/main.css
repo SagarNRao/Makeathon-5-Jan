@@ -5,6 +5,7 @@ body {
   font-size: 14px;
   max-width: 500px;
   margin: auto;
+  overflow-x: hidden;
 }
 pre
 {
@@ -673,7 +674,7 @@ body {
 .sup
 {
   
-  width: 1500px;
+  width: 100%;
   height: 50px;
   border-radius: 5px;
 }
