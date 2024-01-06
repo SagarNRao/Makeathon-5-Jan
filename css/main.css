@@ -79,7 +79,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 515px;
-  left: 1089px;
+  left: 1050px;
   overflow: hidden;
   animation: fadeInAnimation ease 8s;
   animation-iteration-count: 1;
@@ -95,7 +95,8 @@ body {
   opacity: 1;
   position: absolute;
   top: 515px;
-  left: 1220px;
+  left: 1200px;
+  /* right: ; */
   overflow: hidden;
   animation: fadeInAnimation ease 10s;
   animation-iteration-count: 1;
@@ -103,7 +104,7 @@ body {
 }
 .v1_8 {
   width: 457px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   position: absolute;
   top: 36px;
   left: 993px;
@@ -547,14 +548,11 @@ section {
   /* background-color: aqua; */
   color: white;
 }
-/* .v11_11,.v11_20 {
-  position: relative;
-  height: 100vh;
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
 }
 
-#bouncingImage {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-} */
+.bounce {
+  animation: bounce 1s infinite;
+}
