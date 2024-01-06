@@ -734,7 +734,7 @@ h1
   width: 1000px;
 }
 .btn.btn2 {
-  background-color: rgb(216,180,20); /* Green background */
+  background-color: rgb(188, 161, 13); /* Green background */
   border: none; /* Removes border */
   color: white; /* White text */
   padding: 15px 32px; /* Padding around the text */
@@ -748,7 +748,7 @@ h1
 }
 
 .btn.btn2:hover {
-  background-color: #45a049; /* Changes the background color when you hover over the button */
+  background-color: rgb(255, 208, 0); /* Changes the background color when you hover over the button */
 }
 span
 {
