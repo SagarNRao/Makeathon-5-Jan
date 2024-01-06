@@ -700,9 +700,13 @@ button{
 .v25_80,.v25_81
 {
   position: absolute;
-  left: 65%;
+  left: 67%;
 }
 .gottem
+{
+  color: white;
+}
+.caps
 {
   color: white;
 }
