@@ -713,7 +713,7 @@ h1
 {
   position: absolute;
   z-index: 9999;
-  color: white;
+  color: rgb(216,180,20);
   /* margin-top: 50px; */
   top: 1750px;
   font-size: 75px;
@@ -725,11 +725,28 @@ h1
 {
   position: absolute;
   z-index: 9999;
-  color: white;
+  color: rgb(216,180,20);
   /* margin-top: 50px; */
   top: 2850px;
   font-size: 55px;
   left: 42%;
   right: 5px;
   width: 1000px;
+}
+.btn.btn2 {
+  background-color: rgb(216,180,20); /* Green background */
+  border: none; /* Removes border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding around the text */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Removes underline */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; /* Changes the cursor when you hover over the button */
+  transition-duration: 0.4s; /* Adds a transition effect when you hover over the button */
+}
+
+.btn.btn2:hover {
+  background-color: #45a049; /* Changes the background color when you hover over the button */
 }
