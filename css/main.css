@@ -98,7 +98,7 @@ body {
   left: 1200px;
   /* right: ; */
   overflow: hidden;
-  animation: fadeInAnimation ease 10s;
+  animation: fadeInAnimation ease 8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
