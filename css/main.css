@@ -674,7 +674,7 @@ body {
 .sup
 {
   
-  width: 100%;
+  width: 50%;
   height: 50px;
   border-radius: 5px;
 }
@@ -753,4 +753,23 @@ h1
 span
 {
   font-weight: bold;
+}
+
+.contact-right {
+  width: 100%;
+  max-width: 600px; /* adjust as needed */
+  margin: 0 auto; /* centers the form */
+}
+
+.contact-right input,
+.contact-right textarea,
+.contact-right button {
+  width: 100%;
+  box-sizing: border-box; /* includes padding and border in the element's total width */
+}
+
+@media (max-width: 480px) {
+  .contact-right {
+    padding: 10px; /* adds some space around the form on small screens */
+  }
 }
