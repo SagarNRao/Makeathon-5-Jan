@@ -706,7 +706,15 @@ button{
 {
   color: white;
 }
-.caps
+h1
 {
+  position: absolute;
+  z-index: 9999;
   color: white;
+  /* margin-top: 50px; */
+  top: 1750px;
+  font-size: 75px;
+  left: 28%;
+  right: 5px;
+  width: 1000px;
 }
