@@ -1,0 +1,26 @@
+html {
+    font-size: 22px; /* Add the unit (e.g., px) */
+    text-align: center;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
+
+table, th, tr, td, caption {
+    border: 1px solid #b66412;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    margin: 20px;
+}
