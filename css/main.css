@@ -672,7 +672,8 @@ body {
 
 .sup
 {
-  width: 100%;
+  
+  width: 1500px;
   height: 50px;
   border-radius: 5px;
 }
@@ -691,6 +692,7 @@ button{
   font-weight: bold;
   position: absolute;
   left: 45.8%;
+  z-index: 1000;
 }
 .v16_32,.v16_37
 {
@@ -715,6 +717,18 @@ h1
   top: 1750px;
   font-size: 75px;
   left: 28%;
+  right: 5px;
+  width: 1000px;
+}
+#contacts
+{
+  position: absolute;
+  z-index: 9999;
+  color: white;
+  /* margin-top: 50px; */
+  top: 2850px;
+  font-size: 55px;
+  left: 42%;
   right: 5px;
   width: 1000px;
 }
