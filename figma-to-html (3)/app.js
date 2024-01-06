@@ -8,3 +8,5 @@ console.log(offsetTopofSkills); // This is the scrollY value at which the elemen
 window.addEventListener("scroll", function () {
   console.log(window.scrollY);
 });
+
+
