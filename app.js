@@ -18,4 +18,4 @@ setTimeout(function() {
   const element2 = document.querySelector(".v11_11");
   element1.classList.add("bounce");
   element2.classList.add("bounce");
-}, 5000);
+}, 3000);

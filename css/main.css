@@ -64,7 +64,7 @@ body {
   text-align: left;
   /* transition: opacity 100s ease-in-out; */
 
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
