@@ -750,3 +750,7 @@ h1
 .btn.btn2:hover {
   background-color: #45a049; /* Changes the background color when you hover over the button */
 }
+span
+{
+  font-weight: bold;
+}
